@@ -1,0 +1,138 @@
+
+.container
+
+{
+    background-image: url(./images/images\ \(10\)\ \(1\).jpeg);
+    width: 370px;
+    height: 450px;
+    text-align: center;
+    margin-top : 70px;
+    border-radius: 20px;
+  
+    
+}
+.container img
+{
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    
+    
+
+}
+.container h1
+{
+    font-size: 30px;
+    font-weight: 200px;
+    text-align: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+   
+}
+.container h1:hover
+{
+    color: #aaa;
+}
+.container p
+{
+    font-size: 15px;
+    font-weight: 100px;
+    text-align: center;
+    color: #aaa;
+}
+.container button
+{
+    border-radius: 40px;
+     align-items: center;
+     justify-content: center;
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+}
+.container button:hover
+{
+    color: #111;
+}
+.container i
+{
+     color:#aaa;
+    font-size: 20px;
+ padding-right: 10px;
+ padding-left:20px ;
+ margin-top: 20px;
+}
+.container i:hover
+{
+    color: #fff;
+}
+.switch
+{
+    text-align: right;
+    margin-right: 80px;
+}
+.switch .btn
+{
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 20px;
+  
+}
+.switch .btn:hover
+{
+    color: #111;
+}
+@media (max-width: 768px) {
+    body {
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+
+    .container {
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+        height: 500px;
+        width: 400px;
+    }
+
+    .container form h1 {
+        font-size: 24px;
+        padding-top: 10px; /* Add some spacing for better readability */
+    }
+
+    .top {
+        display: block;
+        text-align: center;
+    }
+
+    .form-control.form-text {
+        border-color: rgb(21, 215, 200); /* Correct the selector */
+    }
+
+    .btn {
+        width: 30%;
+        margin: 10px 0;
+        margin-right: auto;
+        font-size: 18px; /* Adjust button font size for better visibility */
+    }
+
+    .container form h3 a {
+        font-size: 12px;
+        margin-top: 10px; /* Add some spacing for better readability */
+    }
+
+    .body h1 {
+        font-size: 32px;
+        text-align: center; /* Center-align the heading for better display */
+        margin-top: 20px; /* Add some spacing for better readability */
+    }
+}
+    
+    
