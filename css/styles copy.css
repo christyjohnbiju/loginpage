@@ -1,4 +1,3 @@
-
 .container
 
 {
@@ -6,8 +5,10 @@
     width: 370px;
     height: 450px;
     text-align: center;
-    margin-top : 70px;
+    margin-top : 70px auto;
     border-radius: 20px;
+    padding: 20px;
+    
   
     
 }
@@ -67,6 +68,7 @@
  padding-right: 10px;
  padding-left:20px ;
  margin-top: 20px;
+ margin-bottom: 20px;
 }
 .container i:hover
 {
@@ -89,50 +91,48 @@
     color: #111;
 }
 @media (max-width: 768px) {
-    body {
-        padding-top: 2rem;
-        padding-left: 1rem;
+   
+      .container {
+        width: 100% !important;
+        height: auto !important; 
+        margin-top: 20px !important; 
+        padding: 20px !important;
+        margin-bottom: 20px !important;
+        margin-right: 10px !important;
+        
+        
+
     }
 
-    .container {
-        width: 100%;
-        margin: 10px;
-        padding: 10px;
-        height: 500px;
-        width: 400px;
+    .container img 
+    {
+        width: 70% !important; 
     }
 
-    .container form h1 {
-        font-size: 24px;
-        padding-top: 10px; /* Add some spacing for better readability */
+    .container h1 
+    {
+        font-size: 24px !important;
     }
 
-    .top {
-        display: block;
-        text-align: center;
+    .container p
+     {
+        font-size: 14px !important;
     }
 
-    .form-control.form-text {
-        border-color: rgb(21, 215, 200); /* Correct the selector */
+    .container button
+     {
+        font-size: 14px !important; 
+        padding: 8px 16px !important; 
     }
 
-    .btn {
-        width: 30%;
-        margin: 10px 0;
-        margin-right: auto;
-        font-size: 18px; /* Adjust button font size for better visibility */
+    .container i
+     {
+        font-size: 18px !important;
+        margin-top: 5px !important; 
+        margin-bottom: 5px !important;
     }
 
-    .container form h3 a {
-        font-size: 12px;
-        margin-top: 10px; /* Add some spacing for better readability */
-    }
-
-    .body h1 {
-        font-size: 32px;
-        text-align: center; /* Center-align the heading for better display */
-        margin-top: 20px; /* Add some spacing for better readability */
+    .switch {
+        margin-right: 20px !important; 
     }
 }
-    
-    
